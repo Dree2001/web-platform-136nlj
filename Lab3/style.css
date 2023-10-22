@@ -1,0 +1,74 @@
+/* Reset some default styles to ensure consistent styling */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the header text */
+header h1 {
+  font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Style sections on the page */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Style section headings */
+section h2 {
+  color: #007acc;
+}
+
+/* Style unordered lists within sections */
+section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style links within sections */
+section a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+

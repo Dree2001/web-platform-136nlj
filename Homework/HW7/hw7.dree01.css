@@ -1,0 +1,69 @@
+.container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+  width: 100vw; 
+}
+
+.grid-container{
+  display: grid;
+  grid-gap: 20px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;   
+  font-size: 40px;    
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.grid-container div{
+  border-radius: 20px;
+  border: solid 2px rgb(221, 255, 0);
+  height: 200px;
+  width: 200px;
+
+}
+
+.grid-container div:hover{
+  transform: scale(1.1);
+}
+
+.grid-container div:hover::before{
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0,0, 0, 0.5);
+  border-radius: 20px;
+
+  position:absolute;
+  left:0;
+
+  content: "Beautiful Nature"; 
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.grid-container div:hover::after{
+  content: "\1F50D";
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+
+  top:40%;
+  left:40%;
+
+}
+
+
+.grid-container div:nth-child(even){
+  border: solid 2px red;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-size: cover; 
+  background-position: center; 
+}

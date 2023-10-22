@@ -1,0 +1,40 @@
+/* Reset padding and margin, and set box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header element */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Style the main element */
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Style the footer element */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Style paragraph elements */
+p {
+  padding: 1em;
+}
