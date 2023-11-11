@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="dree01.lab10.js"></script>
+</head>
+  <body>
+
+    <div style = "margin-top:100px; display:flex; flex-direction:column;align-items: center; justify-content:center;gap:50px;">
+      <h style = "color:blue;font-size:24px;">Rock, Paper, Scissors</h>
+      <div style = "display:flex; flex-direction:row; gap:20px;align-items: center; justify-content:center;">
+        <div>
+          <button onClick = "game(this.id)" id = "rock" style = "background-color:red; color:white; border: none; padding: 10px 35px 10px 35px; border-radius:20px;">Rock</button>
+          <button onClick = "game(this.id)" id = "paper" style = "background-color:blue; color:white; border: none; padding: 10px 35px 10px 35px; border-radius:20px;">Paper</button>
+          <button onClick = "game(this.id)" id = "scissors" style = "background-color:green; color:white; border: none; padding: 10px 35px 10px 35px; border-radius:20px;">Scissors</button>
+        </div>        
+      </div>
+      <h id = "choices" style = "color:green;font-size:24px; text-align:center;"></h>
+      <h id = "outcome" style = "color:red;font-size:24px;text-align:center;"></h>
+
+      </div>
+
+    
+  </body>
+</html>
